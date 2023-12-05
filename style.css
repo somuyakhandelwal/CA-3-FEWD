@@ -208,3 +208,72 @@ code {
 .error{
     padding: 100px ;
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .hero-text{
+        font-size: 20px;
+    }
+    .hero-img{
+        display: none;
+    }
+    .Hero-Section {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .food-card {
+        flex-wrap: wrap;
+        padding-top: 10px;
+        margin: 20px;
+    }
+
+    .food-img {
+        margin: 30px;
+        padding: 10px;
+    }
+
+    .food-text {
+        padding: 10px;
+    }
+
+    .food-text>h1 {
+        font-size: 24px;
+    }
+
+    .food-text>h3 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    ul {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .modal {
+        font-size: 18px;
+        height: 120px;
+    }
+
+    .search-box {
+        margin-top: 10px;
+    }
+
+    .search-input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .search-submit {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .event-listner{
+        display: none;
+    }
+}
